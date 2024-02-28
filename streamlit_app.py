@@ -24,7 +24,7 @@ def app():
         Target variable: A single categorical variable representing the class 
         of the image (e.g., digit recognition, traffic sign classification)."""
     st.write(text)
-    st.write('The dataset is composed of different arrow symbols. classify different types of arrows')
+    st.write('The dataset is composed of different arrow symbols')
     st.write(' This can classify different types of arrows ' )
 
 
