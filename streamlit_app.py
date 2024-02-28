@@ -14,7 +14,7 @@ from sklearn.metrics import classification_report
 # Define the Streamlit app
 def app():
     
-    st.title('Symbol Classification')
+    st.title(' Arrow Symbol Classification')
     st.subheader('by Bethany Hope Cabristante, BSCS 3A')
     
     st.write('Dataset description:')
@@ -22,14 +22,10 @@ def app():
     st.write('Number of features: 64')
     text = """Feature representation: Binary values (1 or 0) representing the 8x8 pixels of an image.
         Target variable: A single categorical variable representing the class 
-        of the image (e.g., digit recognition, traffic sign classification).
-        Potential Applications:"""
+        of the image (e.g., digit recognition, traffic sign classification)."""
     st.write(text)
-    st.write('Digit recognition: Identifying handwritten digits from 0-9.')
-    st.write('Traffic sign classification: Classifying different types of traffic signs.')
-    st.write('Character recognition: Recognizing characters from different alphabets.')
-    st.write("""Simple image classification: Classifying simple images into categories 
-             like animal/non-animal, vehicle/non-vehicle, etc.""")
+    st.write('The dataset is composed of different arrow symbols. It can clasify different types of arrows')
+
 
     # display choice of classifier
     clf = BernoulliNB() 
