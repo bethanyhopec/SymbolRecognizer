@@ -25,7 +25,7 @@ def app():
         of the image (e.g., digit recognition, traffic sign classification)."""
     st.write(text)
     st.write('The dataset is composed of different arrow symbols. classify different types of arrows')
-     st.write(' This can classify different types of arrows ' )
+    st.write(' This can classify different types of arrows ' )
 
 
     # display choice of classifier
